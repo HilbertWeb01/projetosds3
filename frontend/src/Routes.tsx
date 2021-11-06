@@ -7,15 +7,13 @@ const Routes = () => {
     return (
         <BrowserRouter>
         <Switch>
-           <Route path="./src" exact>
+           <Route path="/" exact>
                <Home />
            </Route>
 
            <Route path="/dashboard">
                <Dashboard/>
            </Route>
-
-
 
         </Switch>
         
